@@ -2,15 +2,19 @@
 //  PokemonDataManager.swift
 //  MVC
 //
-//  Created by Alan Ulises on 16/08/24.
+//  Created by Rafael Gonzalez on 16/08/24.
 //
 
 import Foundation
 
-class PokemonData{
-    // Mark: Properties
-    private var pokemon: [pokemon] = []
-    // Mark: data source array :P
+
+class PokemonDataManager {
+    
+    //MARK: Properties
+    private var pokemons : [Pokemon] = []
+    
+    
+    //MARK: data source array :P
         let pokemonsArray = [
             ["image":"0", "name": "Wartortle"],
             ["image":"1", "name": "Bulbasaur"],
@@ -37,16 +41,19 @@ class PokemonData{
             ["image":"22", "name":"Lapras"],
             ["image":"23", "name":"Sandshrew"]
             ]
-    // Mark:Methods
-    func fetch(){
-        for pokemon in pokemonsArray{
+    
+    //MARK:Methods
+    func fecth() {
+        for pokemon in pokemonsArray {
             pokemons.append(Pokemon(dict: pokemon))
         }
     }
-    func getpokemon(at index : Int ) -> Pokemon{
+    
+    func getPokemon(at index : Int) -> Pokemon {
         return pokemons[index]
     }
-    func countPokemon() -> Int{
+    
+    func countPokemons() -> Int {
         pokemons.count
     }
     

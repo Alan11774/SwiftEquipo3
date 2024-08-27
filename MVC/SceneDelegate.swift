@@ -2,7 +2,7 @@
 //  SceneDelegate.swift
 //  MVC
 //
-//  Created by Alan Ulises on 16/08/24.
+//  Created by Rafael Gonzalez on 16/08/24.
 //
 
 import UIKit
