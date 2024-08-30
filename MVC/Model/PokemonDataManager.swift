@@ -16,7 +16,7 @@ class PokemonDataManager {
     
     //MARK: data source array :P
         let pokemonsArray = [
-            ["image":"0", "name": "Wartortle"],
+            ["image":"0", "name": "Wartortle", "category":"Turtle", "ability": "Torrent"],
             ["image":"1", "name": "Bulbasaur"],
             ["image":"2", "name": "Blastoise"],
             ["image":"3", "name":"Butterfree"],
