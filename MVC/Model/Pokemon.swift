@@ -2,7 +2,7 @@
 //  Pokemon.swift
 //  MVC
 //
-//  Created by Rafael Gonzalez on 16/08/24.
+//  Created by Team 3  on 16/08/24.
 //
 
 import Foundation
@@ -16,7 +16,7 @@ struct Pokemon {
     init(dict: [String : String]) {
         self.name = dict["name"]!
         self.image = dict["image"]!
-        self.category = dict["category"] ?? "Not filled"
+        self.category = dict["category"] ?? "Not filled" // This will assign a value if the key not exist
         self.ability = dict["ability"] ?? "Not filled"
     }
 }

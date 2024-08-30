@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  MVC
 //
-//  Created by Rafael Gonzalez on 16/08/24.
+//  Created by Team 3 on 16/08/24.
 //
 
 import UIKit

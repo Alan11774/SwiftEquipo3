@@ -2,7 +2,7 @@
 //  PokemonDetailedViewController.swift
 //  MVC
 //
-//  Created by Alan Ulises on 24/08/24.
+//  Created by Team 3 on 24/08/24.
 //
 
 import UIKit
