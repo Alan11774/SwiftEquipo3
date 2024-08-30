@@ -3,6 +3,7 @@
     <device id="retina6_12" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22685"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -18,7 +19,8 @@
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="130" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="ckH-rt-Bdk">
                                 <rect key="frame" x="16" y="59" width="361" height="759"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" name="PrimaryColor"/>
+                                <color key="sectionIndexBackgroundColor" name="PrimaryColor"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="pokemonCell" id="qhl-R0-G2B" customClass="PokemonCell" customModule="MVC" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="50" width="361" height="130"/>
@@ -41,6 +43,7 @@
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
+                                            <color key="backgroundColor" name="PrimaryColor"/>
                                             <constraints>
                                                 <constraint firstItem="LcJ-UE-usn" firstAttribute="top" secondItem="gxG-RX-ARV" secondAttribute="topMargin" id="0HX-HS-bLR"/>
                                                 <constraint firstAttribute="bottom" secondItem="8nk-5G-Vzz" secondAttribute="bottom" id="7RV-Ad-eTd"/>
@@ -51,6 +54,7 @@
                                                 <constraint firstAttribute="bottomMargin" secondItem="LcJ-UE-usn" secondAttribute="bottom" id="faQ-fv-uLV"/>
                                             </constraints>
                                         </tableViewCellContentView>
+                                        <color key="backgroundColor" name="PrimaryColor"/>
                                         <connections>
                                             <outlet property="pokemonImage" destination="8nk-5G-Vzz" id="8Rt-X1-bQL"/>
                                             <outlet property="pokemonLabel" destination="LcJ-UE-usn" id="iex-HJ-J2B"/>
@@ -65,7 +69,7 @@
                             </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="PrimaryColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ckH-rt-Bdk" secondAttribute="bottom" id="0sK-k0-wSe"/>
                             <constraint firstItem="ckH-rt-Bdk" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="AHG-po-feb"/>
@@ -108,6 +112,9 @@
         </scene>
     </scenes>
     <resources>
+        <namedColor name="PrimaryColor">
+            <color red="0.012818789031078359" green="0.62201982736587524" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
