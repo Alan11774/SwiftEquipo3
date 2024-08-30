@@ -9,7 +9,10 @@ import UIKit
 
 class PokemonDetailedViewController: UIViewController {
     var receivedPokemon: Pokemon?
-
+    @IBAction func closeDetail(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
