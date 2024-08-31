@@ -13,6 +13,10 @@ class PokemonDetailedViewController: UIViewController {
     @IBOutlet weak var pokemonAbillityResult: UILabel!
     @IBOutlet weak var pokemonCategoryResult: UILabel!
     @IBOutlet weak var pokemonNameResult: UILabel!
+    @IBAction func closeDetail(_ sender: UIButton) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         if let receivedPokemon = receivedPokemon{
