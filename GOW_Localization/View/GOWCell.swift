@@ -16,7 +16,7 @@ class GOWCell: UITableViewCell {
     override func awakeFromNib() {
         super.awakeFromNib()
         
-        let myFont = UIFont(name: "CGF Locust Resistance", size: 17)
+        let myFont = UIFont(name: "CGF Locust Resistance", size: 18)
         let title1Metrics = UIFontMetrics(forTextStyle: .title1)
         
         menuTitle.font = title1Metrics.scaledFont(for: myFont!)

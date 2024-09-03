@@ -49,7 +49,7 @@ class WeaponsViewController: UIViewController {
                     Weapon(
                     name: "weapon.name.boomshot",
                     description: "weapon.description.boomshot",
-                    poster: "weapon.name.hammerburstii"
+                    poster: "boomshot"
                 ),
                     Weapon(
                         name: "weapon.name.hammerburstii",
@@ -64,7 +64,7 @@ class WeaponsViewController: UIViewController {
                 Weapon(
                     name: "weapon.name.bolo_grenade",
                     description: "weapon.description.bolo_grenade",
-                    poster: "BoloGrenade"
+                    poster: "Bolo"
                 ),
                 Weapon(
                     name: "weapon.name.boltok",
