@@ -97,6 +97,7 @@
                             </imageView>
                             <pageControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" numberOfPages="3" translatesAutoresizingMaskIntoConstraints="NO" id="BGS-PO-AaZ" customClass="CustomPageControl" customModule="GOW_Localization" customModuleProvider="target">
                                 <rect key="frame" x="16" y="752" width="361" height="26"/>
+                                <color key="pageIndicatorTintColor" name="GOWRed"/>
                             </pageControl>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="Txh-lF-smm"/>
@@ -264,6 +265,7 @@
                     </tabBarItem>
                     <navigationItem key="navigationItem" id="3X7-KX-Xiu"/>
                     <connections>
+                        <outlet property="DescriptionLabel" destination="MCb-5m-Whz" id="F1L-Sw-wfB"/>
                         <outlet property="WeaponsTableView" destination="ypE-GO-VQO" id="Wuy-7a-mSB"/>
                     </connections>
                 </viewController>
@@ -450,6 +452,7 @@
             <point key="canvasLocation" x="3120" y="356"/>
         </scene>
     </scenes>
+    <color key="tintColor" name="GOWRed"/>
     <resources>
         <image name="circle.grid.cross.fill" catalog="system" width="128" height="128"/>
         <image name="gearshape" catalog="system" width="128" height="123"/>
