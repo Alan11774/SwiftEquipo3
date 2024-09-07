@@ -265,7 +265,6 @@
                     </tabBarItem>
                     <navigationItem key="navigationItem" id="3X7-KX-Xiu"/>
                     <connections>
-                        <outlet property="DescriptionLabel" destination="MCb-5m-Whz" id="F1L-Sw-wfB"/>
                         <outlet property="WeaponsTableView" destination="ypE-GO-VQO" id="Wuy-7a-mSB"/>
                     </connections>
                 </viewController>
