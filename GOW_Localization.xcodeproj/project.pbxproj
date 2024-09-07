@@ -23,6 +23,8 @@
 		717E4FA22C829C9F00350FC1 /* WeaponsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717E4FA12C829C9F00350FC1 /* WeaponsCell.swift */; };
 		717E4FA52C82A7D300350FC1 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717E4FA42C82A7D300350FC1 /* Constants.swift */; };
 		717E4FAA2C82AEFF00350FC1 /* CGF Locust Resistance.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 717E4FA92C82AEFF00350FC1 /* CGF Locust Resistance.ttf */; };
+		CBD955DD2C8B99C3003EC4D6 /* CustomPageControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD955DC2C8B99C3003EC4D6 /* CustomPageControl.swift */; };
+		CBD955E12C8CE53D003EC4D6 /* FontExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBD955E02C8CE53D003EC4D6 /* FontExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +52,8 @@
 		717E4FA12C829C9F00350FC1 /* WeaponsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeaponsCell.swift; sourceTree = "<group>"; };
 		717E4FA42C82A7D300350FC1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		717E4FA92C82AEFF00350FC1 /* CGF Locust Resistance.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CGF Locust Resistance.ttf"; sourceTree = "<group>"; };
+		CBD955DC2C8B99C3003EC4D6 /* CustomPageControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomPageControl.swift; sourceTree = "<group>"; };
+		CBD955E02C8CE53D003EC4D6 /* FontExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,7 @@
 			isa = PBXGroup;
 			children = (
 				643486182C83771E00C0B4DE /* StringExtension.swift */,
+				CBD955E02C8CE53D003EC4D6 /* FontExtension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -139,6 +144,7 @@
 			children = (
 				717E4F952C82759700350FC1 /* MenuOption.swift */,
 				717E4F9B2C82982400350FC1 /* Weapon.swift */,
+				CBD955DC2C8B99C3003EC4D6 /* CustomPageControl.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -245,6 +251,8 @@
 				717E4F9A2C82804D00350FC1 /* GamesViewController.swift in Sources */,
 				643486192C83771E00C0B4DE /* StringExtension.swift in Sources */,
 				717E4F982C82787B00350FC1 /* GOWCell.swift in Sources */,
+				CBD955E12C8CE53D003EC4D6 /* FontExtension.swift in Sources */,
+				CBD955DD2C8B99C3003EC4D6 /* CustomPageControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
